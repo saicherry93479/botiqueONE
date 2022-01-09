@@ -1,0 +1,14 @@
+.userHeader > h1 {
+  font-size: 30px;
+  background: -webkit-linear-gradient(-90deg, rgb(21, 163, 76), rgb(2, 75, 33));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Montserrat Alternates";
+  font-weight: 900;
+  /* margin-top: 10px; */
+  margin-left: 10px;
+}
+.userHeader {
+  padding: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+}

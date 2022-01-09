@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gudea&display=swap");
+
+.heroInfo {
+  height: 20vh;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  width: 100%;
+}
+.heroInfo > .left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.heroInfo > .middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.heroInfo > .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.headingHeroInfo {
+  color: black;
+  font-family: "Gudea", sans-serif;
+  font-weight: 200;
+  margin-bottom: 10px;
+}
+.headingHeroInfo > i {
+  margin-right: 5px;
+}
+.paraHeroInfo {
+  color: black;
+}

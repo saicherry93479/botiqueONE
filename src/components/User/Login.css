@@ -1,0 +1,26 @@
+.login {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+.login > .loginLeft {
+  flex: 1;
+  flex-basis: 50%;
+  /* background-color: red; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login > .loginRight {
+  flex: 1;
+  background-color: #1976d2;
+  flex-basis: 50%;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.loginRight > h1 {
+  margin-left: 40px;
+  margin-top: 40px;
+  color: white;
+}

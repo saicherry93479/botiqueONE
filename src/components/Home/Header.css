@@ -1,0 +1,28 @@
+.header {
+  height: 10vh;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  /* background-color: var(--primary); */
+
+  /* background-color: red; */
+
+  /* position: absolute; */
+}
+.header > h1 {
+  color: rgb(133, 113, 84);
+  /* font-family: "Montserrat Alternates", sans-serif; */
+  /* font-weight: 900; */
+  margin-left: 5%;
+}
+.header > .menu {
+  margin-left: auto;
+}
+.menu > a {
+  margin-right: 50px;
+  color: rgb(177, 151, 112);
+}

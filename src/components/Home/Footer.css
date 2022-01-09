@@ -1,0 +1,75 @@
+.footer {
+  height: 150px;
+  width: 100%;
+  background-color: var(--primary);
+}
+.innerFooter {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+}
+.innerFooter > .left {
+  flex: 1;
+  /* background-color: green; */
+}
+.innerFooter > .left > h1 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  color: antiquewhite;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.innerFooter > .left > p {
+  margin-left: 10px;
+  color: antiquewhite;
+}
+.innerFooter > .middle {
+  flex: 2;
+  /* background-color: rgb(18, 108, 168); */
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+  /* height: 100%; */
+}
+.innerFooter > .middle > a {
+  margin-top: 20px;
+  color: antiquewhite;
+}
+.innerFooter > .right {
+  flex: 1;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.innerFooter > .right > .fab {
+  margin-right: 20px;
+  font-size: 22px;
+  color: antiquewhite;
+  cursor: pointer;
+  border-radius: 50%;
+  /* background-color: red; */
+}
+.innerFooter > .right > .fa-instagram:hover {
+  color: white;
+  box-shadow: 1px 1px 10px 10px rgb(194, 18, 150);
+  transform: scale(1.2);
+  background-color: rgb(194, 18, 150);
+}
+.innerFooter > .right > .fa-facebook:hover {
+  color: white;
+  box-shadow: 1px 1px 10px 10px rgb(26, 89, 172);
+  transform: scale(1.2);
+  background-color: rgb(26, 89, 172);
+}
+.innerFooter > .right > .fa-twitter:hover {
+  color: white;
+  box-shadow: 1px 1px 10px 10px rgb(103, 161, 236);
+  transform: scale(1.2);
+  background-color: rgb(103, 161, 236);
+}
+.innerFooter > .right > .fa-whatsapp:hover {
+  color: white;
+  box-shadow: 1px 1px 10px 10px #21a54d;
+  transform: scale(1.2);
+  background-color: #21a54d;
+}
